@@ -18,7 +18,8 @@ Moreover, the numbers fluctuate. They seems to be dependent on the actual memory
 Maybe the computer memory, maybe the process memory, maybe the alloted tab memory.
 Not sure at all.
 
-| Browser                | System                     | Approximate limit |
-|------------------------|----------------------------|-------------------|
-| Edge 77.0.217.0 Canary | i7-3667U @ 2 GHz, 8 GB RAM | ~125000           |
-| Chrome 75.0.3770.100   | i7-3667U @ 2 GHz, 8 GB RAM | ~125000           |
+| Browser                | System                     | Limit                |
+|------------------------|----------------------------|----------------------|
+| Edge 77.0.217.0 Canary | i7-3667U @ 2 GHz, 8 GB RAM | ~125000 (fluctuates) |
+| Chrome 75.0.3770.100   | i7-3667U @ 2 GHz, 8 GB RAM | ~125000 (fluctuates) |
+| iOS Safari 12.3.1      | iPhone SE                  | 65536 (looks static) |
