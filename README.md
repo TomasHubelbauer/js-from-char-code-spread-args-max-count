@@ -1,5 +1,7 @@
 # JavaScript `String.fromCharCode(...)` Spread Arguments Maximum Count
 
+[**LIVE**](https://tomashubelbauer.github.io/js-from-char-code-spread-args-max-count)
+
 What is the maximum number of arguments you can spread into `String.fromCharCode`?
 
 ```js
