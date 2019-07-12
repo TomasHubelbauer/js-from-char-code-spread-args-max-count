@@ -23,3 +23,12 @@ Not sure at all.
 | Edge 77.0.217.0 Canary | i7-3667U @ 2 GHz, 8 GB RAM | ~125000 (fluctuates) |
 | Chrome 75.0.3770.100   | i7-3667U @ 2 GHz, 8 GB RAM | ~125000 (fluctuates) |
 | iOS Safari 12.3.1      | iPhone SE                  | 65536 (looks static) |
+
+The fix is simple but much less elegant:
+
+```js
+let check = '';
+for (let byte of bytes) {
+  check += String.fromCharCode(byte);
+}
+```

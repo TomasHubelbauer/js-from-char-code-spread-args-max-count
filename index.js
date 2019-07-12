@@ -23,5 +23,20 @@ function test() {
     resultP.textContent = count + ' NOK - error';
   }
 
+  try {
+    let check = '';
+    for (let byte of bytes) {
+      check += String.fromCharCode(byte);
+    }
+
+    if (payload === check) {
+      resultP.textContent += ' vs. OK - true';
+    } else {
+      resultP.textContent += ' vs.NOK - false';
+    }
+  } catch (error) {
+    resultP.textContent += ' vs.NOK - error';
+  }
+
   document.getElementById('testButton').insertAdjacentElement('afterend', resultP);
 }
