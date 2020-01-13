@@ -1,8 +1,9 @@
-# JavaScript `String.fromCharCode(...)` Spread Arguments Maximum Count
+# JavaScript Spread Arguments
 
 [**LIVE**](https://tomashubelbauer.github.io/js-from-char-code-spread-args-max-count)
 
 What is the maximum number of arguments you can spread into `String.fromCharCode`?
+(And probably all functions?)
 
 ```js
 const payload = 'A'.repeat(125749);
@@ -15,7 +16,7 @@ This has sort of been [asked on Stack Overflow](https://stackoverflow.com/q/2274
 but I get different numbers.
 
 Moreover, the numbers fluctuate. They seems to be dependent on the actual memory.
-Maybe the computer memory, maybe the process memory, maybe the alloted tab memory.
+Maybe the computer memory, maybe the process memory, maybe the allocated tab memory.
 Not sure at all.
 
 | Browser                | System                     | Limit                |
@@ -32,3 +33,5 @@ for (let byte of bytes) {
   check += String.fromCharCode(byte);
 }
 ```
+
+## To-Do
